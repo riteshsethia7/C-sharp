@@ -42,7 +42,7 @@ namespace ConsoleApplication1
         public static void Main(String[] args)
         {
             Student s = new Student();//default constructor instance
-            Student s1 = new Student("Ritesh",38);//parametrized constructor instance
+            Student s1 = new Student("Mighty",38);//parametrized constructor instance
             Student s2 = new Student(s1);//copy constructor instance 
             s.printdetails();
             s2.printdetails();
